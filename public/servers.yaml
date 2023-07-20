@@ -1,0 +1,13 @@
+- name: Requiem
+  url: http://localhost:8000/jobs
+
+- name: Bombe
+  url: http://localhost:8000/jobs
+- name: Perry
+  url: http://localhost:8000/jobs
+- name: Setup 1
+  url: http://localhost:8000/jobs
+- name: Setup 2
+  url: http://localhost:8000/jobs
+- name: Setup 3
+  url: http://localhost:8000/jobs

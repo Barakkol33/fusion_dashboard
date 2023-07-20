@@ -1,0 +1,72 @@
+body {
+    background-color: #444;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    background-color: #444; /* Darker gray background for the whole page */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .banner {
+    background-color: #000051; /* Dark blue color for the banner */
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 32px; /* Slightly larger font size for the header */
+    color: #fff; /* White color for the header text */
+    margin: 0;
+  }
+  
+  .job-queues {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .queue-container {
+    border: 2px solid #000; /* Black border */
+    background-color: #222;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .queue-container h3 {
+    font-size: 24px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: #000051; /* Dark blue color for the header background */
+  }
+  
+  .job-queue {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    min-height: 100px;
+  }
+  
+  .job {
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+  }
+  
